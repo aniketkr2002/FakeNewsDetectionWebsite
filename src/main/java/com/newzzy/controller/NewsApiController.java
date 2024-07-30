@@ -18,7 +18,7 @@ import com.newzzy.service.NewsResponseService;
 import com.newzzy.service.RateService;
 @RestController
 @RequestMapping(value="/news")
-public class ApiController {
+public class NewsApiController {
 	
 	@Autowired
 	private NewsResponseService newsResponseService; 
